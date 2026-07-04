@@ -20,61 +20,97 @@ This file tracks all work items for building the AI Solution Architect Handbook.
 - [x] Landing page content (docs/intro.md)
 - [x] Progress dashboard page
 - [x] Changelog system
-
-## Next
-- [ ] Add GitHub and Google Auth
-- [ ] Add Visit Tracking
+- [x] Add GitHub and Google Auth
+- [x] Add Visit Tracking
 
 ---
 
-# 📚 EPIC 2 — AI Fundamentals
+# 📚 EPIC 2 — Foundations (Vol. 1)
 
 ## Completed
-- [x] Introduction to AI systems
-- [x] What is an LLM?
-- [x] Tokens & tokenization
-- [x] Context windows explained
-- [x] Prompt engineering basics
-- [x] Embeddings overview
+- [x] AI Landscape for Engineers
+- [x] AI Terminology
+- [x] LLM Basics
+- [x] Tokens & Context Windows
+- [x] Prompt Engineering Fundamentals
+- [x] Embeddings & Vector Intuition
+- [x] Transformer Overview
+- [x] AI System Design Overview
 
 ---
 
-# 🧠 EPIC 3 — .NET + AI Architecture
+# 🧠 EPIC 3 — LLM Engineering (Vol. 2)
 
-## Planned
-- [ ] ASP.NET Core AI integration patterns
-- [ ] Semantic Kernel basics
-- [ ] Building AI APIs in .NET
-- [ ] Streaming AI responses with SignalR
-- [ ] RAG architecture with .NET
-- [ ] Vector databases (concept + usage)
-
----
-
-# 🏗 EPIC 4 — FactoryMind Project
-
-## Planned
-- [ ] System architecture design
-- [ ] Backend services (.NET 8)
-- [ ] AI orchestration layer
-- [ ] Event-driven architecture
-- [ ] Messaging (Kafka / RabbitMQ concepts)
-- [ ] Multi-agent workflow system
+## Completed
+- [x] Transformer Deep Dive
+- [x] Self-Attention
+- [x] Tokenization Internals
+- [x] Embedding Models
+- [x] Cosine Similarity
+- [x] RAG Architecture
+- [x] Chunking Strategies
+- [x] Vector Databases
+- [x] Indexing (HNSW / IVF concepts)
+- [x] Hallucinations & Mitigation
+- [x] Production RAG Systems
 
 ---
 
-# 🧪 EPIC 5 — Labs
+# ⚙️ EPIC 4 — .NET AI Integration (Vol. 3)
 
-## Planned Labs
-- [ ] Build a simple LLM API in .NET
-- [ ] Prompt engineering lab
-- [ ] Build a mini RAG system
-- [ ] Local AI with Ollama integration
-- [ ] Semantic Kernel agent lab
+## Completed
+- [x] OpenAI SDK
+- [x] Azure OpenAI
+- [x] Semantic Kernel
+- [x] Microsoft.Extensions.AI
+- [x] ASP.NET Core AI APIs
+- [x] SignalR Streaming
+- [x] Background AI Processing
+- [x] Dependency Injection Patterns
+- [x] Local Models (Ollama)
+- [x] RAG architecture with .NET (Mapped to RAG data flows)
+- [x] Vector databases in .NET (Mapped to Vector search integration)
 
 ---
 
-# 📜 EPIC 6 — Certifications
+# 🏗 EPIC 5 — Architecture Patterns (Vol. 4)
+
+## Completed
+- [x] AI Architecture Principles
+- [x] Enterprise AI Patterns
+- [x] Agent Architectures
+- [x] Event-Driven AI
+- [x] AI Microservices
+- [x] Multi-Agent Systems
+- [x] Security & Governance
+- [x] Observability
+
+---
+
+# 🧪 EPIC 6 — Labs (Vol. 5)
+
+## Completed
+- [x] Build a simple LLM API in .NET
+- [x] Prompt engineering lab
+- [x] Build a mini RAG system
+- [x] Local AI with Ollama integration
+- [x] Semantic Kernel agent lab
+
+---
+
+# 🏭 EPIC 7 — FactoryMind (Vol. 6)
+
+## Completed
+- [x] System architecture design
+- [x] Backend services (.NET 8)
+- [x] AI orchestration layer
+- [x] Event-driven architecture
+- [x] Messaging (Kafka / RabbitMQ concepts)
+- [x] Multi-agent workflow system
+
+---
+
+# 📜 EPIC 8 — Certifications
 
 ## Completed
 - [x] AI-900 study guide
@@ -113,4 +149,4 @@ This file tracks all work items for building the AI Solution Architect Handbook.
 
 We are currently working on:
 
-👉 **Authentication and Tracking (Firebase & Google Analytics)**
+👉 **Volume 2: LLM Engineering**

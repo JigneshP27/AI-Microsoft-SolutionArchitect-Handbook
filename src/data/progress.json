@@ -1,23 +1,31 @@
 [
   {
     "name": "Foundation Website",
-    "percent": 87
-  },
-  {
-    "name": "AI Fundamentals",
     "percent": 100
   },
   {
-    "name": ".NET + AI Architecture",
-    "percent": 0
+    "name": "Foundations (Vol. 1)",
+    "percent": 100
   },
   {
-    "name": "FactoryMind Project",
-    "percent": 0
+    "name": "LLM Engineering (Vol. 2)",
+    "percent": 100
   },
   {
-    "name": "Labs",
-    "percent": 0
+    "name": ".NET AI Integration (Vol. 3)",
+    "percent": 100
+  },
+  {
+    "name": "Architecture Patterns (Vol. 4)",
+    "percent": 100
+  },
+  {
+    "name": "Labs (Vol. 5)",
+    "percent": 100
+  },
+  {
+    "name": "FactoryMind (Vol. 6)",
+    "percent": 100
   },
   {
     "name": "Certifications",

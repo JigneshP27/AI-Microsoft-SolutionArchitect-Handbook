@@ -172,3 +172,159 @@ The project is considered "complete" when:
 - Roadmap page with Mermaid timeline exists
 - Dark mode works
 - GitHub Pages deployment succeeds
+
+---
+
+# 📦 12. Volume Success Criteria (Definition of Done)
+
+A volume is a complete learning module, not a folder.
+
+A volume is NOT considered complete until it satisfies ALL success criteria below.
+
+The agent MUST use these rules to determine whether to continue generating content or move to the next volume.
+
+---
+
+## General Success Criteria (Applies to Every Volume)
+
+A volume is COMPLETE only when:
+
+- All required chapters exist.
+- Every chapter has Docusaurus frontmatter.
+- Every chapter appears in `sidebars.ts`.
+- Every chapter is linked from the previous and next chapter where appropriate.
+- There are no placeholder-only pages.
+- Internal links are valid.
+- `npm run build` succeeds.
+- The volume is reflected in `ROADMAP.md`.
+- Completed work is removed from `TASKS.md`.
+
+Each chapter must include:
+
+- Business Problem
+- Theory
+- Architecture Diagram (Mermaid where appropriate)
+- C# Example (unless not applicable)
+- Lab / Exercise
+- Summary
+- References
+
+---
+
+## 📚 Volume 1 — Foundations
+
+Success Criteria
+
+Required Chapters
+
+- AI Landscape for Engineers
+- AI Terminology
+- LLM Basics
+- Tokens & Context Windows
+- Prompt Engineering Fundamentals
+- Embeddings & Vector Intuition
+- Transformer Overview
+- AI System Design Overview
+
+Volume 1 is complete only when ALL chapters above satisfy the General Success Criteria.
+
+---
+
+## 🧠 Volume 2 — LLM Engineering
+
+Required Chapters
+
+- Transformer Deep Dive
+- Self-Attention
+- Tokenization Internals
+- Embedding Models
+- Cosine Similarity
+- RAG Architecture
+- Chunking Strategies
+- Vector Databases
+- Indexing (HNSW / IVF concepts)
+- Hallucinations & Mitigation
+- Production RAG Systems
+
+Volume 2 is complete only when every chapter satisfies the General Success Criteria.
+
+---
+
+## ⚙️ Volume 3 — .NET AI Integration
+
+Required Chapters
+
+- OpenAI SDK
+- Azure OpenAI
+- Semantic Kernel
+- Microsoft.Extensions.AI
+- ASP.NET Core AI APIs
+- SignalR Streaming
+- Background AI Processing
+- Dependency Injection Patterns
+- Local Models (Ollama)
+
+Volume 3 is complete only when every chapter satisfies the General Success Criteria.
+
+---
+
+## 🏗 Volume 4 — Architecture Patterns
+
+Required Chapters
+
+- AI Architecture Principles
+- Enterprise AI Patterns
+- Agent Architectures
+- Event-Driven AI
+- AI Microservices
+- Multi-Agent Systems
+- Security & Governance
+- Observability
+
+Volume 4 is complete only when every chapter satisfies the General Success Criteria.
+
+---
+
+## 🧪 Volume 5 — Labs
+
+Required Labs
+
+- Build an AI API
+- Build a Chat Application
+- Build a RAG System
+- Build a Document Search Engine
+- Build an AI Agent
+- Build a Local AI Assistant
+
+Each lab must contain:
+
+- Objectives
+- Prerequisites
+- Step-by-step instructions
+- Expected output
+- Stretch goals
+
+---
+
+## 🏭 Volume 6 — FactoryMind
+
+Required Deliverables
+
+- Solution Architecture
+- Repository Structure
+- Backend Services
+- AI Orchestration
+- RAG Integration
+- Event Processing
+- Deployment
+- Monitoring
+- Security
+- Production Checklist
+
+This volume is complete only when FactoryMind is a complete reference implementation.
+
+---
+
+## Agent Rule
+
+The agent MUST NOT begin a new volume until the previous volume satisfies its success criteria, unless explicitly instructed by the user.
