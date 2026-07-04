@@ -12,31 +12,30 @@ This file tracks all work items for building the AI Solution Architect Handbook.
 - [x] PLAN.md added
 - [x] AGENTS.md added
 - [x] ROADMAP.md added
-
-## In Progress
-- [ ] TASKS.md backlog setup
-- [ ] Homepage (docs/intro.md)
-- [ ] Sidebar navigation structure
-- [ ] Custom theme (dark/light mode)
-- [ ] Branding (AI Architect Handbook UI)
+- [x] TASKS.md backlog setup
+- [x] Homepage (docs/intro.md)
+- [x] Sidebar navigation structure
+- [x] Custom theme (dark/light mode)
+- [x] Branding (AI Architect Handbook UI)
+- [x] Landing page content (docs/intro.md)
+- [x] Progress dashboard page
+- [x] Changelog system
 
 ## Next
-- [ ] Landing page content (docs/intro.md)
-- [ ] Chapter 1: AI Fundamentals
-- [ ] Progress dashboard page
-- [ ] Changelog system
+- [ ] Add GitHub and Google Auth
+- [ ] Add Visit Tracking
 
 ---
 
 # 📚 EPIC 2 — AI Fundamentals
 
-## Planned
-- [ ] Introduction to AI systems
-- [ ] What is an LLM?
-- [ ] Tokens & tokenization
-- [ ] Context windows explained
-- [ ] Prompt engineering basics
-- [ ] Embeddings overview
+## Completed
+- [x] Introduction to AI systems
+- [x] What is an LLM?
+- [x] Tokens & tokenization
+- [x] Context windows explained
+- [x] Prompt engineering basics
+- [x] Embeddings overview
 
 ---
 
@@ -77,8 +76,10 @@ This file tracks all work items for building the AI Solution Architect Handbook.
 
 # 📜 EPIC 6 — Certifications
 
+## Completed
+- [x] AI-900 study guide
+
 ## Planned
-- [ ] AI-900 study guide
 - [ ] Azure AI Engineer roadmap
 - [ ] Solution Architect AI path
 
@@ -112,4 +113,4 @@ This file tracks all work items for building the AI Solution Architect Handbook.
 
 We are currently working on:
 
-👉 **Foundation Website + Homepage (docs/intro.md)**
+👉 **Authentication and Tracking (Firebase & Google Analytics)**

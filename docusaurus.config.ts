@@ -43,6 +43,10 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        gtag: {
+          trackingID: process.env.GTAG_ID || 'G-XXXXXXXXXX',
+          anonymizeIP: true,
+        },
       } satisfies Preset.Options,
     ],
   ],
@@ -75,6 +79,10 @@ const config: Config = {
         {
           href: 'https://github.com/JigneshP27/AI-Microsoft-SolutionArchitect-Handbook',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          type: 'custom-loginButton',
           position: 'right',
         },
       ],

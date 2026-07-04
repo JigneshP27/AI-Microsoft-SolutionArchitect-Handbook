@@ -3,6 +3,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import styles from './index.module.css';
+import progressData from '../data/progress.json';
 
 function HeroSection() {
   const {siteConfig} = useDocusaurusContext();
@@ -127,16 +128,7 @@ function FeaturesSection() {
 }
 
 function ProgressSection() {
-  const modules = [
-    {name: 'Website & Infrastructure', percent: 90},
-    {name: 'AI Fundamentals (Vol. 1)', percent: 80},
-    {name: 'LLM Engineering (Vol. 2)', percent: 0},
-    {name: '.NET AI Integration (Vol. 3)', percent: 0},
-    {name: 'Architecture Patterns (Vol. 4)', percent: 0},
-    {name: 'Labs (Vol. 5)', percent: 0},
-    {name: 'FactoryMind (Vol. 6)', percent: 0},
-    {name: 'Certifications', percent: 15},
-  ];
+  const modules = progressData;
 
   const overallPercent = Math.round(
     modules.reduce((sum, m) => sum + m.percent, 0) / modules.length
