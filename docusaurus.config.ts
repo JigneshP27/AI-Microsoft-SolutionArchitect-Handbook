@@ -14,6 +14,11 @@ const config: Config = {
   projectName: 'AI-Microsoft-SolutionArchitect-Handbook',
   trailingSlash: false,
 
+  customFields: {
+    supabaseUrl: process.env.SUPABASE_URL || '',
+    supabaseAnonKey: process.env.SUPABASE_ANON_KEY || '',
+  },
+
   onBrokenLinks: 'warn',
 
   i18n: {
