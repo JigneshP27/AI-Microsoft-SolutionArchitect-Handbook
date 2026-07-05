@@ -154,7 +154,7 @@ Understand the memory footprint of an HNSW index.
 ### The Math
 An HNSW index stores the vectors *plus* the graph connections.
 For 1 million documents (using 1,536 dimensions):
-1. **Vector storage:** $1,000,000 \times 1536 \times 4 \text{ bytes (FP32)} = \sim 6 \text{ GB}$
+1. **Vector storage:** 1,000,000 * 1536 * 4 bytes (FP32) = ~6 GB
 2. **HNSW overhead:** Adds ~50% to ~100% overhead depending on the `M` parameter (number of connections per node).
 
 ### Questions

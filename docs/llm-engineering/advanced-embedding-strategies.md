@@ -140,8 +140,8 @@ Understand the storage impact of chunk overlap.
 You have a 10,000 token document. 
 You chunk it into 500 token chunks.
 
-1. **No overlap:** $10,000 / 500 = 20 \text{ chunks}$
-2. **250 token overlap:** Because you repeat 250 tokens every time, you effectively only advance 250 tokens per chunk. $10,000 / 250 = 40 \text{ chunks}$
+1. **No overlap:** 10,000 / 500 = 20 chunks
+2. **250 token overlap:** Because you repeat 250 tokens every time, you effectively only advance 250 tokens per chunk. 10,000 / 250 = 40 chunks
 
 ### ✅ Success Criteria
 - [ ] You realize that a 50% overlap **doubles** your vector database storage costs.

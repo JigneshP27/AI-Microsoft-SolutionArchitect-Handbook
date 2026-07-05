@@ -120,7 +120,7 @@ Understand the financial impact of omitting a deterministic filtering layer.
 Machine A sends 1 telemetry ping per second (86,400 per day). 
 The JSON payload is 50 tokens. 
 If you send every ping to GPT-4o directly to ask "Is this anomalous?":
-- $86,400 \times 50 \text{ tokens} = 4,320,000 \text{ tokens/day}$.
+- 86,400 * 50 tokens = 4,320,000 tokens/day.
 - Cost of GPT-4o input: ~$5.00 / 1M tokens.
 - Cost = $21.60 per day, *per machine*.
 - For 5,000 machines = **$108,000 per day**.

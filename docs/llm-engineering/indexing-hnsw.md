@@ -119,9 +119,9 @@ Unlike standard databases that store data on disk, an HNSW graph is traversed so
 
 1. You have 10 million documents.
 2. Using OpenAI `text-embedding-3-small` (1,536 dimensions, 4 bytes per float) = 6 KB per vector.
-3. Total Raw Vector Size: $10,000,000 \times 6 \text{ KB} = 60 \text{ GB}$.
+3. Total Raw Vector Size: 10,000,000 * 6 KB = 60 GB.
 4. The HNSW Graph Overhead (pointers and layers) usually adds 30-50% more size.
-5. Total RAM Required: $\sim 90 \text{ GB}$.
+5. Total RAM Required: ~90 GB.
 
 ### ✅ Success Criteria
 - [ ] You realize that scaling Vector Search requires scaling Server RAM, not just Disk space.
